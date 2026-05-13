@@ -3,3 +3,4 @@
 	name = emergent-agent-e1
 [safe]
 	directory = /app
+	directory = /app
