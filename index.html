@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Portfolio</title>
+    <meta name="description" content="Personal Portfolio - Full Stack Developer & Creative Designer">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-content">
+            <div class="nav-logo">
+                <a href="#" class="logo-text">JD</a>
+            </div>
+            
+            <div class="nav-items">
+                <a href="#about" class="nav-item">ABOUT</a>
+                <a href="#skills" class="nav-item">SKILLS</a>
+                <a href="#projects" class="nav-item">PROJECTS</a>
+                <a href="#experience" class="nav-item">EXPERIENCE</a>
+                <a href="#contact" class="nav-item">CONTACT</a>
+            </div>
+            
+            <div class="nav-icons">
+                <button class="nav-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <button class="nav-icon menu-btn">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-title-wrapper">
+                <div class="hero-greeting">Hello, I'm</div>
+                <div class="hero-name">
+                    <h1 class="name-text">JOHN DOE</h1>
+                </div>
+                <div class="hero-title">Full Stack Developer & Creative Designer</div>
+                <div class="hero-tagline">
+                    Crafting beautiful, functional experiences through code and design
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="cta-button primary">View My Work</a>
+                    <a href="#contact" class="cta-button secondary">Get In Touch</a>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-text">SCROLL TO EXPLORE</div>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+        
+        <div class="hero-scroller-container">
+            <div class="infinite-scroller">
+                <div class="scroller-track">
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                    <span class="scroller-item">✦</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-label">ABOUT ME</div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <div class="image-text">JD</div>
+                    </div>
+                    <div class="image-decoration"></div>
+                </div>
+                
+                <div class="about-text">
+                    <h2 class="about-title">Passionate Developer & Designer</h2>
+                    <p class="about-description">
+                        I'm a full-stack developer with a passion for creating elegant solutions to complex problems. With over 5 years of experience in web development, I specialize in building scalable applications that prioritize user experience and performance.
+                    </p>
+                    <p class="about-description">
+                        My journey in tech started with a curiosity about how things work, which evolved into a career dedicated to crafting digital experiences that make a difference. I believe in clean code, thoughtful design, and continuous learning.
+                    </p>
+                    <p class="about-description">
+                        When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">30+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="skills-container">
+            <div class="skills-label">SKILLS & EXPERTISE</div>
+            
+            <h2 class="skills-title">Technologies I Work With</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">React</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">JavaScript</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">TypeScript</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">HTML/CSS</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">Tailwind</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">Next.js</span></div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">Node.js</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">Python</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">FastAPI</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">Express</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">PostgreSQL</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">MongoDB</span></div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Others</h3>
+                    <div class="skills-list">
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">Git</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">Docker</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">AWS</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">Figma</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">REST APIs</span></div>
+                        <div class="skill-item"><span class="skill-icon">✦</span><span class="skill-name">GraphQL</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <div class="projects-label">PORTFOLIO</div>
+            
+            <h2 class="projects-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-number">01</div>
+                        <div class="project-year">2024</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">A full-featured e-commerce platform with real-time inventory management, payment integration, and advanced analytics dashboard.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-number">02</div>
+                        <div class="project-year">2024</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Powered Analytics Tool</h3>
+                        <p class="project-description">Machine learning-powered analytics platform that provides predictive insights and automated reporting for businesses.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-number">03</div>
+                        <div class="project-year">2023</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Social Media Dashboard</h3>
+                        <p class="project-description">Unified dashboard for managing multiple social media accounts with scheduling, analytics, and engagement tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Tailwind</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-number">04</div>
+                        <div class="project-year">2023</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Healthcare Management System</h3>
+                        <p class="project-description">Comprehensive healthcare platform for patient records, appointment scheduling, and telemedicine consultations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">WebRTC</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="experience-container">
+            <div class="experience-label">WORK EXPERIENCE</div>
+            
+            <h2 class="experience-title">Professional Journey</h2>
+            
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="experience-role">Senior Full Stack Developer</h3>
+                                <div class="experience-company">Tech Innovations Inc.</div>
+                            </div>
+                            <div class="experience-period">2022 - Present</div>
+                        </div>
+                        <p class="experience-description">Leading development of scalable web applications, mentoring junior developers, and architecting cloud-based solutions.</p>
+                        <div class="experience-achievements">
+                            <div class="achievement-item"><span class="achievement-bullet">✦</span><span>Led migration to microservices architecture, improving system performance by 40%</span></div>
+                            <div class="achievement-item"><span class="achievement-bullet">✦</span><span>Implemented CI/CD pipeline reducing deployment time by 60%</span></div>
+                            <div class="achievement-item"><span class="achievement-bullet">✦</span><span>Mentored team of 5 junior developers</span></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="experience-role">Full Stack Developer</h3>
+                                <div class="experience-company">Digital Solutions Ltd.</div>
+                            </div>
+                            <div class="experience-period">2020 - 2022</div>
+                        </div>
+                        <p class="experience-description">Developed and maintained multiple client projects, focusing on responsive design and API integrations.</p>
+                        <div class="experience-achievements">
+                            <div class="achievement-item"><span class="achievement-bullet">✦</span><span>Built e-commerce platform serving 10,000+ daily users</span></div>
+                            <div class="achievement-item"><span class="achievement-bullet">✦</span><span>Reduced application load time by 50% through optimization</span></div>
+                            <div class="achievement-item"><span class="achievement-bullet">✦</span><span>Integrated third-party APIs for payment and shipping</span></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="experience-role">Frontend Developer</h3>
+                                <div class="experience-company">Creative Web Studio</div>
+                            </div>
+                            <div class="experience-period">2019 - 2020</div>
+                        </div>
+                        <p class="experience-description">Specialized in creating engaging user interfaces with modern JavaScript frameworks.</p>
+                        <div class="experience-achievements">
+                            <div class="achievement-item"><span class="achievement-bullet">✦</span><span>Developed 15+ responsive websites for various clients</span></div>
+                            <div class="achievement-item"><span class="achievement-bullet">✦</span><span>Implemented design system increasing development speed by 30%</span></div>
+                            <div class="achievement-item"><span class="achievement-bullet">✦</span><span>Collaborated with design team to improve UX workflows</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="testimonials-container">
+            <div class="testimonials-label">TESTIMONIALS</div>
+            
+            <h2 class="testimonials-title">What People Say</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-content">Working with John was an absolute pleasure. His technical expertise and attention to detail transformed our vision into a robust, scalable platform. Highly recommended!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SJ</div>
+                        <div class="author-info">
+                            <div class="author-name">Sarah Johnson</div>
+                            <div class="author-role">CEO, TechStart Inc.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-content">John's ability to understand complex requirements and deliver elegant solutions is exceptional. He consistently exceeded our expectations and delivered ahead of schedule.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MC</div>
+                        <div class="author-info">
+                            <div class="author-name">Michael Chen</div>
+                            <div class="author-role">Product Manager, Digital Solutions</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-content">An outstanding developer who combines technical prowess with excellent communication skills. John was instrumental in launching our product successfully.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ER</div>
+                        <div class="author-info">
+                            <div class="author-name">Emily Rodriguez</div>
+                            <div class="author-role">CTO, InnovateCo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-label">GET IN TOUCH</div>
+            
+            <h2 class="contact-title">Let's Work Together</h2>
+            
+            <p class="contact-subtitle">
+                I'm always interested in hearing about new projects and opportunities.
+                Feel free to reach out!
+            </p>
+            
+            <div class="contact-content">
+                <div class="contact-info-grid">
+                    <div class="contact-info-item">
+                        <div class="info-icon">✉</div>
+                        <div class="info-content">
+                            <div class="info-label">Email</div>
+                            <a href="mailto:john.doe@example.com" class="info-value link">john.doe@example.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="info-icon">☎</div>
+                        <div class="info-content">
+                            <div class="info-label">Phone</div>
+                            <a href="tel:+15551234567" class="info-value link">+1 (555) 123-4567</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="info-icon">⌖</div>
+                        <div class="info-content">
+                            <div class="info-label">Location</div>
+                            <div class="info-value">San Francisco, CA</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <div class="social-label">Follow Me</div>
+                    <div class="social-grid">
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">in</span>
+                            <span class="social-name">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">gh</span>
+                            <span class="social-name">GitHub</span>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">tw</span>
+                            <span class="social-name">Twitter</span>
+                        </a>
+                        <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">dr</span>
+                            <span class="social-name">Dribbble</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Download Section -->
+    <section class="resume-section">
+        <div class="resume-container">
+            <div class="resume-card">
+                <div class="resume-icon">📄</div>
+                <h3 class="resume-title">Download My Resume</h3>
+                <p class="resume-description">
+                    Get a detailed overview of my experience, skills, and achievements
+                </p>
+                <button onclick="downloadResume()" class="download-button">
+                    <span class="download-icon">↓</span>
+                    <span>Download Resume</span>
+                </button>
+                <div class="resume-note">
+                    Note: You can replace this with your own PDF resume file
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
